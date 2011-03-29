@@ -65,6 +65,11 @@ class Pastit_UrlHandler extends Ethna_UrlHandler
                 'path'          => 'login_finish',
                 'path_ext'      => array(),
             ),
+            //'embed' => array(
+            //    'path'          => 'embed',
+            //    'path_regexp'   => '|^embed/(\d+)$|',
+            //    'path_ext'      => array('id' => array(),),
+            //),
             'paste_view' => array(
                 'path'          => 'paste_view',
                 'path_regexp'   => '|^(\d+)$|',
